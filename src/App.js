@@ -1,19 +1,14 @@
-import React, { Component } from 'react'; // สำคัญ
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-
-let x = 10;
+import WordCard from './WordCard';
 class App extends Component {
   render() {
-
     return (
-      <div className="App">
-        Hello world {x}
+      <div>
+        <WordCard value="ZAITAMA"/>     
       </div>
     );
-
   }
-
 }
 
-export default App; //export ออกไปๆ 
+export default App;
